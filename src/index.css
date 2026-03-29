@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Global Reset & Smooth Scroll ─────────────────────── */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0A0A0A;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: rgba(255, 204, 0, 0.3);
+  color: #fff;
+}
+
+/* ─── WhatsApp Pulse Animation ─────────────────────────── */
+@keyframes waPulse {
+  0%, 100% {
+    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+  }
+  50% {
+    box-shadow: 0 4px 40px rgba(37, 211, 102, 0.6),
+                0 0 0 12px rgba(37, 211, 102, 0.1);
+  }
+}
+
+/* ─── Responsive Overrides ─────────────────────────────── */
+@media (max-width: 900px) {
+  .hero-grid,
+  .why-grid,
+  .footer-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .why-cards {
+    grid-template-columns: 1fr !important;
+  }
+  .nav-desktop {
+    display: none !important;
+  }
+  .nav-mobile {
+    display: block !important;
+  }
+  .services-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .testi-grid {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .model-issues {
+    grid-template-columns: 1fr !important;
+  }
+  .testi-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
