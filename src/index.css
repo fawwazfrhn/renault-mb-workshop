@@ -56,6 +56,9 @@ body {
   .testi-grid {
     grid-template-columns: 1fr 1fr !important;
   }
+  .gallery-grid {
+    grid-template-columns: 1fr 1fr !important;
+  }
 }
 
 @media (max-width: 600px) {
@@ -63,6 +66,9 @@ body {
     grid-template-columns: 1fr !important;
   }
   .testi-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .gallery-grid {
     grid-template-columns: 1fr !important;
   }
 }
