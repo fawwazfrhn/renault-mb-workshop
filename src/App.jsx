@@ -9,7 +9,7 @@ import {
 // ─── CONFIG ─────────────────────────────────────────────────────────
 const WA_NUMBER = "6281315808614";
 const WA_LINK = `https://wa.me/${WA_NUMBER}?text=Halo%20Bengkel%20M%26B%2C%20saya%20ingin%20booking%20servis%20Renault%20saya.`;
-const GMAPS_LINK = "https://www.google.com/maps/place/Bengkel+Spesialis+Renault+M%26B/@-6.2048,106.7442,17z/";
+const GMAPS_LINK = "https://www.google.com/maps/search/Bengkel+Spesialis+Renault+M%26B+Jl+Menara+IV+No+15+Meruya+Selatan+Kembangan+Jakarta+Barat";
 const INSTAGRAM = "https://www.instagram.com/mb_renaultspecialist/";
 const ADDRESS = "Blok 140, Jl. Menara IV No.15, Meruya Sel., Kec. Kembangan, Jakarta Barat, DKI Jakarta 11650";
 
